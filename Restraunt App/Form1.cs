@@ -54,6 +54,7 @@ namespace Restraunt_App
 
             total += (drinks1.Text == "Fanta") ? 0 : 2 * tb5.Value;
             total += (drinks1.Text == "Sprite") ? 0 : 2 * tb5.Value;
+            total += (drinks1.Text == "Coke") ? 0 : 2 * tb5.Value;
             //MessageBox.Show(total.ToString());
             totalLabel.Text = total.ToString();
 
