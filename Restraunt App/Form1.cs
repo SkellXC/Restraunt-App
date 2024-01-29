@@ -21,6 +21,7 @@ namespace Restraunt_App
 
         private void Form1_Load(object sender, EventArgs e)
         {
+
         }
 
 
@@ -50,14 +51,30 @@ namespace Restraunt_App
             total += (main2.Text != "Burger") ? 0 : 9 * tb4.Value;
             total += (main2.Text != "Steak") ? 0 : 19 * tb4.Value;
             total += (main2.Text != "Pizza") ? 0 : 4 * tb4.Value;
+
+            total += (drinks1.Text == "Fanta") ? 0 : 2 * tb5.Value;
+            total += (drinks1.Text == "Sprite") ? 0 : 2 * tb5.Value;
             //MessageBox.Show(total.ToString());
             totalLabel.Text = total.ToString();
 
             //total = 0;
         }
 
+
         private void totalLabel_Click(object sender, EventArgs e)
         {
+
+        }
+
+        private void linkLabel1_LinkClicked(object sender, LinkLabelLinkClickedEventArgs e)
+        {
+            System.Diagnostics.Process.Start("https://github.com/SkellXC");
+        }
+
+        private void button2_Click(object sender, EventArgs e)
+        {
+            System.Diagnostics.Process.Start("https://github.com/SkellXC");
+            Application.Exit();
 
         }
     }
