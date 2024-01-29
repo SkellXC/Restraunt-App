@@ -57,6 +57,10 @@
             this.tb5 = new System.Windows.Forms.TrackBar();
             this.linkLabel1 = new System.Windows.Forms.LinkLabel();
             this.button2 = new System.Windows.Forms.Button();
+            this.label12 = new System.Windows.Forms.Label();
+            this.label13 = new System.Windows.Forms.Label();
+            this.label14 = new System.Windows.Forms.Label();
+            this.label15 = new System.Windows.Forms.Label();
             ((System.ComponentModel.ISupportInitialize)(this.logo)).BeginInit();
             ((System.ComponentModel.ISupportInitialize)(this.tb1)).BeginInit();
             ((System.ComponentModel.ISupportInitialize)(this.tb2)).BeginInit();
@@ -102,7 +106,7 @@
             // 
             this.label4.AutoSize = true;
             this.label4.Font = new System.Drawing.Font("Mistral", 14.25F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.label4.Location = new System.Drawing.Point(60, 509);
+            this.label4.Location = new System.Drawing.Point(178, 414);
             this.label4.Name = "label4";
             this.label4.Size = new System.Drawing.Size(59, 22);
             this.label4.TabIndex = 4;
@@ -123,7 +127,7 @@
             this.label6.AutoSize = true;
             this.label6.Font = new System.Drawing.Font("Mistral", 24F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.label6.ForeColor = System.Drawing.Color.IndianRed;
-            this.label6.Location = new System.Drawing.Point(57, 471);
+            this.label6.Location = new System.Drawing.Point(175, 376);
             this.label6.Name = "label6";
             this.label6.Size = new System.Drawing.Size(72, 38);
             this.label6.TabIndex = 6;
@@ -133,7 +137,7 @@
             // 
             this.label7.AutoSize = true;
             this.label7.Font = new System.Drawing.Font("Mistral", 14.25F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.label7.Location = new System.Drawing.Point(60, 531);
+            this.label7.Location = new System.Drawing.Point(178, 436);
             this.label7.Name = "label7";
             this.label7.Size = new System.Drawing.Size(52, 22);
             this.label7.TabIndex = 7;
@@ -143,7 +147,7 @@
             // 
             this.label8.AutoSize = true;
             this.label8.Font = new System.Drawing.Font("Mistral", 14.25F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.label8.Location = new System.Drawing.Point(60, 553);
+            this.label8.Location = new System.Drawing.Point(178, 458);
             this.label8.Name = "label8";
             this.label8.Size = new System.Drawing.Size(51, 22);
             this.label8.TabIndex = 8;
@@ -370,11 +374,56 @@
             this.button2.UseVisualStyleBackColor = true;
             this.button2.Click += new System.EventHandler(this.button2_Click);
             // 
+            // label12
+            // 
+            this.label12.AutoSize = true;
+            this.label12.Font = new System.Drawing.Font("Mistral", 24F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.label12.ForeColor = System.Drawing.Color.IndianRed;
+            this.label12.Location = new System.Drawing.Point(57, 490);
+            this.label12.Name = "label12";
+            this.label12.Size = new System.Drawing.Size(88, 38);
+            this.label12.TabIndex = 28;
+            this.label12.Text = "Drinks";
+            // 
+            // label13
+            // 
+            this.label13.AutoSize = true;
+            this.label13.Font = new System.Drawing.Font("Mistral", 14.25F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.label13.Location = new System.Drawing.Point(60, 572);
+            this.label13.Name = "label13";
+            this.label13.Size = new System.Drawing.Size(54, 22);
+            this.label13.TabIndex = 31;
+            this.label13.Text = "- Sprite";
+            // 
+            // label14
+            // 
+            this.label14.AutoSize = true;
+            this.label14.Font = new System.Drawing.Font("Mistral", 14.25F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.label14.Location = new System.Drawing.Point(60, 550);
+            this.label14.Name = "label14";
+            this.label14.Size = new System.Drawing.Size(56, 22);
+            this.label14.TabIndex = 30;
+            this.label14.Text = "- Fanta";
+            // 
+            // label15
+            // 
+            this.label15.AutoSize = true;
+            this.label15.Font = new System.Drawing.Font("Mistral", 14.25F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.label15.Location = new System.Drawing.Point(60, 528);
+            this.label15.Name = "label15";
+            this.label15.Size = new System.Drawing.Size(54, 22);
+            this.label15.TabIndex = 29;
+            this.label15.Text = "- Water";
+            // 
             // Form1
             // 
             this.AutoScaleDimensions = new System.Drawing.SizeF(6F, 13F);
             this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font;
             this.ClientSize = new System.Drawing.Size(1181, 637);
+            this.Controls.Add(this.label13);
+            this.Controls.Add(this.label14);
+            this.Controls.Add(this.label15);
+            this.Controls.Add(this.label12);
             this.Controls.Add(this.button2);
             this.Controls.Add(this.linkLabel1);
             this.Controls.Add(this.tb5);
@@ -448,6 +497,10 @@
         private System.Windows.Forms.TrackBar tb5;
         private System.Windows.Forms.LinkLabel linkLabel1;
         private System.Windows.Forms.Button button2;
+        private System.Windows.Forms.Label label12;
+        private System.Windows.Forms.Label label13;
+        private System.Windows.Forms.Label label14;
+        private System.Windows.Forms.Label label15;
     }
 }
 
